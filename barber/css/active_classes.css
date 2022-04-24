@@ -1,0 +1,37 @@
+body._pc .menu__list > li:hover .menu__sub-list {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0px, 0px);
+  pointer-events: all; }
+
+body._touch .menu__list > li._active .menu__sub-list {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0px, 0px);
+  pointer-events: all; }
+
+body._touch .menu__list > li._active .menu__arrow {
+  background: #fff;
+  transform: background-color 1000ms linear; }
+
+body._touch .menu__list > li {
+  display: flex;
+  align-items: center; }
+
+body._touch .menu__link {
+  flex: 1 1 14.33%; }
+
+body._touch #cont {
+  text-decoration: none; }
+
+body._touch .menu__arrow {
+  display: inline-block;
+  transition: transform 0.3s ease 0s;
+  height: 0;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background: linear-gradient(90deg, #76b3fe, #8680e4);
+  margin: 4.5px 0 0 5px; }
+
+/*# sourceMappingURL=active_classes.css.map */

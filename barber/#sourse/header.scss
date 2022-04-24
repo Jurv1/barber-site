@@ -1,0 +1,101 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    min-height: 70px;
+    border-bottom: 10px solid transparent;
+    background-color: #000;
+
+
+    // &::after{
+    //     content: url('../assets/img/night_city.jpg');
+    //     max-width: 100%;
+    //     opacity: 0.1;
+    //     z-index: -1;
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    // }
+}
+.header__row {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    font-family: 'Dancing Script', cursive;
+    padding: 20px 0 0 0;
+    font-size: 40px;
+    z-index: 25;
+    //width: 50px;
+    //height: 50px;
+    color: #fff;
+    position: relative;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    & > span{
+        padding: 0 0 0 53px;
+    }
+}
+
+.menu__icon {
+    display: none;
+}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    & > li{
+        position: relative;
+        margin: 20px 0 0 20px;
+    }
+
+
+}
+
+.menu__link {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    &:hover{
+        color: rgba(255, 166, 0, 0.795);
+        text-decoration: underline;
+    }
+}
+.menu__sub-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #5032E7;
+    padding: 15px;
+    min-width: 150px;
+    & > li {
+        margin-bottom: 10px;
+    }
+    &:last-child{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+.menu__sub-link {
+    color: #fff;
+    margin: 25px 0;
+    &:hover{
+        text-decoration: underline;
+    }
+
+}
+
+.text{
+    margin: 500px 0 0 0 ;
+    color: #fff;
+}
+
+.menu__arrow{
+    display: none;
+}

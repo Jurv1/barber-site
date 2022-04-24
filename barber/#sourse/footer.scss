@@ -1,0 +1,27 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.39);
+    border-top: 2px solid white;
+}
+
+.footer__row {
+    margin: 0 auto;
+    text-align: center;
+}
+.footer__menu {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 50px 0 0 0;
+    padding: 0 0 50px 0;
+}
+
+.footer_item {
+    color: #fff;
+    margin-bottom: 10px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.footer__link {
+    color: #fff;
+    text-decoration: underline;
+}
